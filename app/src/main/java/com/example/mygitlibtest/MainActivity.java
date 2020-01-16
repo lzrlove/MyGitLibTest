@@ -13,5 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         String string = Utils.getStr();
+		
+		//试一下会是怎么样的
     }
 }
