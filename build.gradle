@@ -18,7 +18,9 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
+		//使用github以及jitpack进行库的引用
+		//使用链接：https://blog.csdn.net/ZhuoZhuoWei/article/details/81290220
+        maven { url 'https://jitpack.io' }
     }
 }
 
